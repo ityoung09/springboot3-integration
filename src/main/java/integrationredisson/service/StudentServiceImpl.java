@@ -1,6 +1,5 @@
 package integrationredisson.service;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import integrationredisson.dao.StudentMapper;
 import integrationredisson.entity.Student;
 import jakarta.annotation.Resource;

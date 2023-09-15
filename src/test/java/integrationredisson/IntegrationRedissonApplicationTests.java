@@ -1,12 +1,10 @@
 package integrationredisson;
 
-import integrationredisson.entity.Student;
 import integrationredisson.service.StudentServiceImpl;
 import integrationredisson.utils.RedisUtil;
 import jakarta.annotation.Resource;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.cache.Cache;
 import org.springframework.cache.CacheManager;
 
 @SpringBootTest
